@@ -75,14 +75,14 @@ Mazing.prototype.setMessage = function(text) {
 
 Mazing.prototype.heroTakeTreasure = function() {
   this.maze[this.heroPos].classList.remove("nubbin");
-  this.heroScore += 10;
+  this.heroScore += 20;
   this.setMessage("yay, treasure!");
 };
 
 Mazing.prototype.heroTakeKey = function() {
   this.maze[this.heroPos].classList.remove("key");
   this.heroHasKey = true;
-  this.heroScore += 20;
+  this.heroScore += 40;
   this.mazeScore.classList.add("has-key");
   this.setMessage("you now have the key!");
 };

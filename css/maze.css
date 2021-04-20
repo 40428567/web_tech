@@ -42,19 +42,22 @@
 }
 
 #maze div div.nubbin::after {
+  /* violin */
   content: "\1F3BB";
 }
 #maze div.nubbin:nth-of-type(3n)::after {
+  /* Food */
   content: "\1F356";
 }
 #maze div.nubbin:nth-of-type(5n)::after {
+  /* Flower */
   content: "\1F33B";
 }
 #maze div.nubbin:nth-of-type(7n)::after {
-  content: "\1F48E";
+  /* content: "\1F48E"; */
 }
 #maze div.nubbin:nth-of-type(13n)::after {
-  content: "\1F381";
+  /* content: "\1F381"; */
 }
 #maze div.hero::after {
   content: "\1F3C3" !important;
@@ -81,7 +84,7 @@
   background: transparent;
 }
 #maze div div.sentinel.wall::after {
-  content: "\1F432";
+  content: "\1F47F";
 }
 #maze div.sentinel.wall:nth-of-type(3n)::after {
   content: "\1F40D";

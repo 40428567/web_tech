@@ -205,7 +205,7 @@ footer .contacts a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: ring 1.5s infinite;
+  animation: ring 2s infinite;
 }
 
 .btn-wrap .button:hover::after,
