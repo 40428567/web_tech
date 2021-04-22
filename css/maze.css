@@ -51,7 +51,7 @@
 }
 #maze div.nubbin:nth-of-type(5n)::after {
   /* Flower */
-  content: "\1F33B";
+  content: "\1F425";
 }
 /* #maze div.nubbin:nth-of-type(7n)::after {
   content: "\1F48E";
