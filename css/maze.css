@@ -50,7 +50,7 @@
   content: "\1F356";
 }
 #maze div.nubbin:nth-of-type(5n)::after {
-  /* Flower */
+  /* Chicken */
   content: "\1F425";
 }
 /* #maze div.nubbin:nth-of-type(7n)::after {
